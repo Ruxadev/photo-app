@@ -9,11 +9,9 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_tree .
-import "bootstrap"
-import "jquery"
-import "@popperjs/core"
+
 
 document.addEventListener("turbolinks:load", () => {
   $('[data-toggle="popover"]').popover()
   $('[data-toggle="tooltip"]').tooltip()
-})
+});
